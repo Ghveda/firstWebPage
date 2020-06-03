@@ -1,0 +1,145 @@
+
+body{ 
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+   overflow-x: hidden;
+}
+header{
+    margin:0px;
+    padding: 0px;
+}
+header img{
+    width: 100%;
+    height: 100%;
+    transform: translate(0px,-18px);
+}
+.headerContainer a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: white;
+    float: left;
+    font-size: 25px;
+    line-height: 1.4em;
+    text-align: center;
+    outline: none;
+    border: 2px #1386B3 solid;
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 0px;
+    background-position: center;
+}
+.headerContainer a:hover{
+    background-color: white;
+    color: #1386B3;
+    border: 2px white solid;
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+
+
+.static a{
+    margin: 0px;
+    padding: 0px;
+    transform: translate(820px,-215px);
+}
+.students a{
+    margin: 0px;
+    padding: 0px;
+    transform: translate(780px,-215px);
+}
+.inbox a{
+    margin: 0px;
+    padding: 0px;
+    transform: translate(280px,-170px);
+}
+.onPage a{
+    margin: 0px;
+    padding: 0px;
+    border: 2px white solid;
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    transform: translate(210px,-170px);
+}
+
+.logo{
+    font-size: 40px;
+    transform: translate(320px,-180px);
+    color: white;
+}
+.little{
+    font-size: 20px;
+    text-align: center;
+}
+.little img{
+    width: 25px;
+    height: 25px;
+    transform: translate(0px,5px);
+}
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 220px;
+    
+}
+.personalInfo{
+    transform: translate(100px,-195px);
+    width: 300px;
+     color: #1386B3;
+    font-size: 16px;
+}
+.stroke img{
+    width: 500px;
+    height: 200px;
+    transform: translate(110px,-40px);
+}
+.main img{
+    width: 138px;
+    height: 138px;
+    transform: translate(597px,-245px);
+}
+.one img{
+    width: 25px;
+    height: 25px;
+    transform: translate(0px,4px);
+}
+.one{
+    transform: translate(30px,4px);
+}
+.personalInfo2{
+    transform: translate(510px,-465px);
+    width: 300px;
+     color: #1386B3;
+    font-size: 16px;
+    text-align: center;
+}
+.two{
+    transform: translate(10px,3px);
+    
+}
+.two img{
+    width: 25px;
+    height: 25px;
+    transform: translate(0px,4px);
+}
+.personalInfo3{
+    transform: translate(940px,-735px);
+    width: 300px;
+     color: #1386B3;
+    font-size: 16px;
+}
+.three img{
+    width: 25px;
+    height: 25px;
+    transform: translate(0px,4px);
+}
+.three{
+    transform: translate(30px,3px);
+}

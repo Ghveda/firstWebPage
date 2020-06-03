@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/logIn.css">
+    <link rel="shortcut icon" href="./css/image/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <title>Log in</title>
+</head>
+<body>
+    <div class="login">
+        <div class="title">LOG IN</div> 
+        <br><hr>
+       
+        <div class="email">
+            <input type="text" id="email" placeholder="Surname" id="gio" onfocus="this.placeholder=''" onblur="this.placeholder='Surname'" />
+        </div>
+        
+       
+        <div class="password">
+            <input type="password" placeholder="Password" onfocus="this.placeholder=''" onblur="this.placeholder='Password'"/>
+        </div>
+       
+        <div class="btn ">
+            LOG IN
+        </div>
+        <div class="others">
+            
+            <a href="#">Forgot your password?</a>
+        </div>
+    </div>
+    <script>
+       $('input:text').focus(
+    function(){
+        $(this).val('');
+    });
+    function main(){
+       var one= 'Surname';
+        return one;
+        
+    }
+   </script>
+</body>
+</html>
