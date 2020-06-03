@@ -1,0 +1,64 @@
+mysql
+1)admini table
+.id auto_intement
+.userName
+.LastName
+.LastVisit
+
+2)person table
+.id auto_intrement
+
+.name
+.UserName--
+.LastName
+.Email
+.DateofBirth(date)
+.adress
+.phoneNumber(varchar)
+.Rut(varchar) piradi nomeri
+.sex
+
+code:
+
+create database Admin;
+
+show databases;
+
+use admin;
+
+create table adminTable(
+	
+id int(5) auto_increment primary key,
+
+Username varchar(50), 
+    
+lastName varchar(50),
+    
+lastVisit varchar(50)
+
+);
+
+
+use admin;
+
+create table personTable(
+
+id int(5) auto_increment primary key,
+
+Username varchar(50),
+
+LastName varchar (50),
+
+Email varchar(50),
+
+dateOfBirch date ,
+
+adress varchar(50),
+
+phoneNumber varchar(50),
+
+rut varchar(50),
+
+sex varchar(50)
+
+);
